@@ -1,0 +1,50 @@
+baseURL = 'http://Rahemos.com/'
+languageCode = 'en-us'
+title = 'Rahemos'
+theme = 'hugo-cat'
+PygmentsCodeFences = true
+PygmentsStyle = 'solarized-dark256'
+pluralizelisttitles = 'false'
+paginate  = 15
+enableEmoji = true
+enableGitInfo = true
+copyright = 'copyright test'
+
+[params]
+ava = "/img/cat.png"
+owner ='Rahemos'
+talk = "Cooking..."
+blogSection = ["blog"]
+description = "Rahemos Development Website"
+favicon = "/img/logo.svg"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+
+[[menu.footer]]
+name = 'Terms'
+pageRef = '/terms'
+weight = 1
+
+[[menu.footer]]
+name = 'Privacy'
+pageRef = '/privacy'
+weight = 2
