@@ -1,6 +1,7 @@
 ---
-title: "Home page"
-description: "home page description"
+title: ""
+name: "Home"
+description: ""
 permalink: /
 weight: 1
 cascade:
