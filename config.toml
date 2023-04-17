@@ -1,50 +1,28 @@
-baseURL = 'http://Rahemos.com/'
-languageCode = 'en-us'
-title = 'Rahemos'
-theme = 'hugo-cat'
-PygmentsCodeFences = true
-PygmentsStyle = 'solarized-dark256'
-pluralizelisttitles = 'false'
-paginate  = 15
-enableEmoji = true
-enableGitInfo = true
-copyright = 'copyright test'
+title = "Rahemos"
+baseURL = "https://rahemos.com"
+languageCode = "en-us"
+theme = 'ananke'
+
+SectionPagesMenu = "main"
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-ava = "/img/cat.png"
-owner ='Rahemos'
-talk = "Cooking..."
-blogSection = ["blog"]
-description = "Rahemos Development Website"
-favicon = "/img/logo.svg"
+  text_color = ""
+  author = "Emaleth"
+  favicon = ""
+  site_logo = ""
+  description = "Rahemos game website"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
 
-[menu]
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Blog"
-url = "/blog/"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 4
-
-[[menu.footer]]
-name = 'Terms'
-pageRef = '/terms'
-weight = 1
-
-[[menu.footer]]
-name = 'Privacy'
-pageRef = '/privacy'
-weight = 2
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/rahemos_game"
