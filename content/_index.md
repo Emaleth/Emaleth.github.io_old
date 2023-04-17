@@ -1,8 +1,9 @@
 ---
-title: "Home"
-name: "hOmE"
-description: "Rahemos home page"
+title: Home
+name: hOmE
+description: Rahemos home page
 permalink: /
+type: page
 weight: 1
 omit_header_text: true
 featured_image: '/images/screenshot_2023-04-13-212213.png'
