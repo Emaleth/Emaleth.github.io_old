@@ -1,7 +1,7 @@
 ---
-title: " "
-name: "Home"
-description: ""
+title: "Home"
+name: "hOmE"
+description: "Rahemos home page"
 permalink: /
 weight: 1
 featured_image: '/images/screenshot_2023-04-13-212213.png'
