@@ -2,6 +2,7 @@
 title: "Home page"
 description: "home page description"
 permalink: /
+weight: 1
 cascade:
   featured_image: '/images/screenshot_2023-04-13-212213.png'
 ---
